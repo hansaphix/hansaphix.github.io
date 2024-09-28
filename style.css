@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    background-color:black ;
+}
+
+h1{
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    background-color: transparent;
+}
+
+/* h3{
+    margin-bottom: 100px;
+} */
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color:black;
+}
+
+.wrap{
+    width: auto;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black ;
+}
+
+.logo{
+    display: flex;
+    font-weight: 700;
+    font-size: x-large;
+    padding-left: 30px;
+    color: white;
+
+}
+
+.navbar{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+} 
+
+/* ul{
+    flex: 1;
+    text-align:right;
+}  */
+
+ul li{
+    padding: 25px;
+    list-style: none;
+}
+
+.home{
+    position: relative;
+    height: 100px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+img{
+    padding: 150px;
+    margin-left: 55%;
+    max-width: 300px;
+    max-width: 100%;
+    max-height: 500px;
+}
+
+p{
+    color: white;
+    padding-bottom: 300px;
+    background-color: transparent;
+}
+
+.gambar, .tulisan{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.home-img{
+    padding: 150px;
+    margin-left: 35%;
+    margin-bottom: 50px;
+    max-width: 300px;
+    /* max-width: 100%; */
+    max-height: 300px;
+}
+
+.home-txt{
+    /* padding-bottom: 100%;
+    padding-left: 30px; */
+    width: 542px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 250px;
+  left: 89px;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: justified;
+  line-height: 1.5;
+}
+
+.about-us {
+    background-image: url(about\ us\ watch.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 70px;
+    padding: 50px;
+    color: #ffffff;
+    text-align: center;letter-spacing: 4px;
+    background-color: transparent;
+  }
+  
+.about-us-content {
+   margin: 0 auto;
+   background-color: transparent;
+}
+
+.loc-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1000px;
+  }
+
+  .jalan {
+    width: 251px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 380px;
+    right: 280px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .kota {
+    width: 251px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 430px;
+    right: 215px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .negara {
+    width: 251px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 480px;
+    right: 230px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .time {
+    width: 251px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 530px;
+    right: 265px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .classic{
+    top: 130px;
+    left: -790px;
+    width: 249px;
+    height: 419px;
+    position: absolute;
+  }
+
+  .digital {
+    top: 130px;
+    left: -340px;
+    width: 249px;
+    height: 419px;
+    position: absolute;
+  }
+  .smart {
+    top: 130px;
+    left: 100px;
+    width: 249px;
+    height: 419px;
+    position: absolute;
+  }
+
+  .product-type1 {
+    top: 181px;
+    left: 480px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 38px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  
+  .product-type2 {
+    top: 181px;
+    left: 943px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 38px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  .product-type3 {
+    top: 181px;
+    left: 1390px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 38px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  .product-brand1 {
+    top: 730px;
+    left: 420px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 28px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  .product-brand2 {
+    top: 730px;
+    left: 927px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 28px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  .product-brand3 {
+    top: 730px;
+    left: 1318px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 28px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  .product-price1 {
+    top: 776px;
+    left: 460px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 28px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  .product-price2 {
+    top: 776px;
+    left: 914px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 28px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  .product-price3 {
+    top: 776px;
+    left: 1350px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 28px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  .judul{
+    margin-left: 700px;
+    margin-top: 120px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 440px;
+    margin-top: 30px;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+  }
+  
+  .form label {
+    margin-bottom: 0.5rem;
+  }
+  
+  .form input[type="text"],
+  .form input[type="email"],
+  .form select,
+  .form textarea {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-bottom: 1rem;
+  }
+  
+  .form textarea {
+    resize: vertical;
+  }
+  
+  .form input[type="checkbox"] {
+    margin-top: 0.5rem;
+  }
+  
+  .form input[type="submit"] {
+    background-color: w;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form input[type="submit"]:hover {
+    background-color: #333333;
+  }
+  
